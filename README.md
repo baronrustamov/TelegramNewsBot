@@ -1,7 +1,7 @@
 # NewsBot
 
-Open: https://ahelinewsbot.herokuapp.com/
-Launch Telegram app and search for: @aheli_news_bot
+- Open: https://ahelinewsbot.herokuapp.com/
+- Launch Telegram app and search for: @aheli_news_bot
 
 ## Get Started:
 ```sh
