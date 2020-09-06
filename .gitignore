@@ -5,6 +5,7 @@ __pycache__/
 *.pyc
 
 config.py
+newsbotclient.json
 
 # Distribution / packaging
 .Python

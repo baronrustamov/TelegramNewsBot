@@ -1,5 +1,6 @@
 import logging
 import time
+import config
 
 from flask import Flask, request
 from telegram import Bot, Update, ReplyKeyboardMarkup
@@ -11,7 +12,6 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # telegram bot token
-TOKEN = "1320914007:AAEZQXQ5TMoBziTN5772z1jCJs0ls6H3oMM"
 
 app = Flask(__name__)
 
@@ -21,7 +21,7 @@ def index():
     return "Hello!"
 
 
-@app.route(f'/{TOKEN}', methods=['GET', 'POST'])
+@app.route(f'/{config.TOKEN}', methods=['GET', 'POST'])
 def webhook():
     """webhook view which receives updates from telegram"""
     # create update object from json-format request data
@@ -72,10 +72,10 @@ def error(bot, update):
     logger.error("Update '%s' caused error '%s'", update, update.error)
 
 
-bot = Bot(TOKEN)
+bot = Bot(config.TOKEN)
 
 try:
-    bot.set_webhook("https://ahelinewsbot.herokuapp.com/" + TOKEN)
+    bot.set_webhook("https://ahelinewsbot.herokuapp.com/" + config.TOKEN)
     time.sleep(5)
 except Exception as e:
     print(e)
