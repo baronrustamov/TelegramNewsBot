@@ -20,4 +20,4 @@ You may also specifically ask for news like:
 Show entertainment news in french
 ```
 
-![sample](https://github.com/Ahelii16/TelegramNewsBot/blob/master/sample.jpeg)
+<img src="https://github.com/Ahelii16/TelegramNewsBot/blob/master/sample.jpeg" alt="Sample" width="250"/>
