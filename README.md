@@ -19,3 +19,5 @@ You may also specifically ask for news like:
 ```sh
 Show entertainment news in french
 ```
+
+![sample](https://github.com/Ahelii16/TelegramNewsBot/blob/master/sample.jpeg?raw=true)
