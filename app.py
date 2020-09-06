@@ -75,7 +75,7 @@ def error(bot, update):
 bot = Bot(TOKEN)
 
 try:
-    bot.set_webhook("https://frozen-thicket-87150.herokuapp.com//" + TOKEN)
+    bot.set_webhook("https://ahelinewsbot.herokuapp.com/" + TOKEN)
     time.sleep(5)
 except Exception as e:
     print(e)
