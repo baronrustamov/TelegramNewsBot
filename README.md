@@ -1,7 +1,7 @@
 # NewsBot
 
 - Open: https://ahelinewsbot.herokuapp.com/ to activate backend service.
-- Then, launch Telegram app and chat with: @aheli_news_bot 
+- Then, launch Telegram App and chat with: @aheli_news_bot 
 
 ## Get Started:
 ```sh
